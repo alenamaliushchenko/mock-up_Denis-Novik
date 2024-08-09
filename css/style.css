@@ -1,0 +1,199 @@
+.container {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1440px;
+    /* padding-left: 235px;
+    padding-right: 235px; */
+
+}
+.title {
+    margin: 0;
+    font-weight: 700;
+font-size: 34px;
+text-align: center;
+color: #070707;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.header-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.header-menu-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 40px;
+    width: 496px;
+    height: 30px;
+}
+.nav-underline {
+    border: 1px solid #828282;
+    width: 970px;
+    height: 0px;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;  
+}
+.hero-name {
+    font-size: 48px;
+    font-weight: 700;
+    color: #070707;
+    margin: 0;
+    padding-bottom: 50px;
+    align-self: flex-start;
+    
+}
+
+.about-me .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: #f6f6f6;
+    /* height: 500px; */
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+.text-about {
+    width: 480px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 30px;
+}
+.about {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.skills .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text-skills {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.list-of-skills {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 97px;
+}
+.skill {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #828282;
+}
+.skills-star-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+.portfolio .container {
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.portfolio-list {
+    padding-top: 50px;
+}
+.portfolio-page {
+    font-weight: 400;
+font-size: 18px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #070707;
+padding-top: 40px;
+padding-bottom: 70px;
+}
+
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.communication-proposal {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 280px;
+}
+.message {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 0px;
+border: none;
+border-radius: 22px;
+padding: 0px 16px;
+width: 180px;
+height: 44px;
+background: #070707;
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.1em;
+text-align: center;
+color: #fff;
+
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.socials {
+    font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #828282;
+width: 200px;
+
+}
